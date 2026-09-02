@@ -5,7 +5,7 @@ bin/
 .babelrc
 .editorconfig
 .eslintignore
-.eslintrc
+.eslintrc*
 .gitignore
 bower.json
 .github
@@ -18,5 +18,14 @@ rollup.config.mjs
 .coveralls.yml
 tsconfig*.json
 .prettierrc.json
-vitest.config.mts
-vitest.workspace.mts
+vitest.*.mts
+.eslintcache
+.husky
+.prettierignore
+lint-staged.config.mjs
+# npm ignores .gitignore once .npmignore exists, so local/secret files are mirrored here
+.claude
+.idea
+.env*
+*.pem
+*.key
